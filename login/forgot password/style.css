@@ -1,0 +1,74 @@
+* {
+    margin: 0; 
+    padding: 0;  
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(3, 5, 5, 0.877);
+}
+
+.border {
+    position: relative;
+    width: 380px;
+    height: 420px;
+    color: aqua;
+}
+
+.border h2 {
+    position: relative;
+    top: -10%;
+    left: 50%;
+    width: 380px;
+}
+
+.border p {
+    position: relative;
+    top: -10%;
+    left: 35%;
+    width: 380px;
+}
+
+input[type="submit"] {
+    background-color: aqua;
+    color: white;
+    border: 1px solid aqua;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: absolute;
+    width: 120px;
+    left: 54.9%;
+}
+
+input[type="submit"]:hover {
+    background-color: #b324007c;
+}
+
+input[type="submit"]:active {
+
+}
+
+input[type="email"] {
+    background-color:rgba(65, 77, 77, 0.877);
+    color: white;
+    border: 1px solid aqua;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: absolute;
+    width: 190px;
+    left: 52.19%;
+}
+
+label[for="email"] {
+    position: absolute;
+    left: 52.35%;
+    color: aqua;
+}
